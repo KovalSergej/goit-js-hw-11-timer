@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  /* margin: 0; */
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  margin-bottom: 20px;
+}
+
+.timer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.field {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  background: #66c2c2;
+  display: inline-block;
+}
+
+.value {
+  font-size: 10vh;
+  padding: 10px;
+  border-radius: 50%;
+  background: #07e6ae;
+  display: inline-block;
+}
+
+.label {
+  display: block;
+  padding-top: 10px;
+  font-size: 12px;
+}
